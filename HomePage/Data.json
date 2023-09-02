@@ -1,0 +1,99 @@
+[   
+    [
+        {
+            "id":1,
+            "image": "./1.jpg",
+            "description" : "iphone 11 pro (128 GB) White",
+            "price": "16000 LE"
+        },{
+            "id":2,
+            "image": "./2.jpg",
+            "description" : "iphone 7 plus (256 GB) RoseGold",
+            "price": "8000 LE"
+        },{
+            "id":3,
+            "image": "./3.jpg",
+            "description" : "iphone 13 pro max (520 GB) Gray",
+            "price": "36000 LE"
+        },{
+            "id":4,
+            "image": "./4.jpg",
+            "description" : "iphone 14 plus (128 GB) Blue",
+            "price": "32000 LE"
+        },{
+            "id":5,
+            "image": "./5.jpg",
+            "description" : "iphone xs max (256 GB) Gold",
+            "price": "12000 LE"
+        },{
+            "id":6,
+            "image": "./6.jpg",
+            "description" : "iphone 12 pro max (520 GB) Gold",
+            "price": "40000 LE"
+        }
+    ],[
+        {
+            "id":1,
+            "image": "./1.jpg",
+            "description" : "MacBook Pro 16 inch",
+            "price": "129500 LE"
+        },{
+            "id":2,
+            "image": "./2.jpg",
+            "description" : "iMac",
+            "price": "25200 LE"
+        },{
+            "id":3,
+            "image": "./3.jpg",
+            "description" : "Magic Mouse- White Multi-Touch Surface",
+            "price": "1480 LE"
+        },{
+            "id":4,
+            "image": "./4.jpg",
+            "description" : "Magic Keyboard with Touch ID",
+            "price": "7700 LE"
+        },{
+            "id":5,
+            "image": "./5.jpg",
+            "description" : "Studio Display - Standard glass",
+            "price": "93000 LE"
+        },{
+            "id":6,
+            "image": "./6.jpg",
+            "description" : "MacBook Pro 14 inch",
+            "price": "92500 LE"
+        }
+    ],[
+        {
+            "id":1,
+            "image": "./1.jpg",
+            "description" : "AirPods Max",
+            "price": "23000 LE"
+        },{
+            "id":2,
+            "image": "./2.jpg",
+            "description" : "Apple Watch Series8 Black",
+            "price": "16300 LE"
+        },{
+            "id":3,
+            "image": "./3.jpg",
+            "description" : "Apple Watch Series8 Biege",
+            "price": "16900 LE"
+        },{
+            "id":4,
+            "image": "./4.jpg",
+            "description" : "AirPods 2th Generation",
+            "price": "6999 LE"
+        },{
+            "id":5,
+            "image": "./5.jpg",
+            "description" : "USB Type C Adapter",
+            "price": "650 LE"
+        },{
+            "id":6,
+            "image": "./6.jpg",
+            "description" : "MagSafe",
+            "price": "1590 LE"
+        }  
+    ]
+]

@@ -1,0 +1,323 @@
+*{
+    font-size: x-large;
+}
+body{
+    padding: 0;
+    margin: 0;
+    background-image: linear-gradient(to bottom, black,rgb(121, 25, 150));
+}
+
+
+/* Nav Bar */
+#Top_Nav {
+    border: 2px solid black;
+    border-radius: 3px;
+    height: 7.5%;
+    width: 100%;
+    position:fixed;
+    top: 0;
+    overflow: hidden;
+    background-color: #333;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+#Top_Nav a {
+    /* float: left; */
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+}
+.menu:hover {
+    /* background-color: #ddd; */
+    background-color:#aa67a1;
+    color: black;
+    border: 1px;
+    border-radius: 3px;
+}
+#Top_Nav  a.active {
+    background-color: #a54899;
+    color: white;
+    border: 1px;
+    border-radius: 3px;
+}
+.Store_I{
+    color: #9e288e;
+}
+#brand{
+    font-size: 50px;
+    font-weight:lighter;
+    color: #ddd;
+    font-family: 'Starlight Script';
+}
+
+
+/* Page */
+#Page_Content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 5%;
+}
+
+/* Slider */
+#Slider{
+    width: 92%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+#Slides{
+    height: 85%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#Prev{
+    text-align: center;
+}
+#Next{
+    text-align: center;
+}
+#Slides h2{
+    text-decoration: none;
+    margin: 20px;
+    /* background-image: linear-gradient(to bottom, black,rgb(121, 25, 150)); */
+    color: #d168c3;
+    font-size: 200%;
+    font-weight: bolder;
+}
+#Slider_Image{
+    border: 0;
+    border-radius: 40px;
+    width: 1200px;
+    height: 550px;
+}
+.dots{
+    height: 12%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dot{
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+    margin: 10px;
+    background-color: #c2a1be;
+    border-radius: 50%;
+    transition: background-color 0.6s ease;
+}
+.activeee, .dot:hover{ /* activeee becuse we already have active class for nav bar*/
+    background-color: black;
+}
+
+
+
+
+
+
+/* Categories */
+#Categories{
+    width: 92%;
+    display: flex;
+    justify-content: space-evenly;
+}
+#Categories button{
+    color:black;
+    font-weight: 600;
+    background-color: #c2a1be;
+    width: 15%;
+    height: 50px;
+    border-radius: 20px;
+    border:5px solid #5f3058;
+}
+#Categories button:hover,button .active{
+    background-color:#5f3058;
+    color:black;
+    font-size: xx-large;
+    font-weight: lighter;
+}
+
+
+/* Images */ 
+/* Use ID INSTEAD */
+#Categorie_Images_Container{
+    width:90%;
+    height: 800px;
+    display: flex;
+    justify-content: space-around;
+}
+.col{
+    width: 32%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.col .cont{
+    width: 100%;
+    height: 48%;
+    border-radius: 20px;
+    border: #ab66a1 solid;
+}
+.col .original{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+
+}
+
+.col .card{
+    width: 100%;
+    height: 48%;
+    border-radius: 20px;
+    border: #ab66a1 solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(245, 245, 245, 0.833);
+}
+.col .card .imgInCard{
+    width: 60%;
+    height:73% ;
+    border-radius: 50%;
+    /* border: 5px rgba(0, 0, 0, 0.434) solid; */
+    border: 5px rgba(110, 47, 109, 0.555) solid;
+}
+.col .CardContent{
+    display: none;
+    width: 90%;
+    height: 23%;
+}
+.col .CardContent p{
+    font-size: 85%;
+    padding: 0px;
+    margin: 0px;
+    opacity: 0.7;
+
+}
+.col .CardContent button{
+    color:rgba(255, 255, 255, 0.74);
+    font-size: smaller;
+    font-weight: 400;
+    background-color: #5f3058;
+    width: 50%;
+    border-radius: 30px;
+    border:3px solid #c2a1be;
+    margin-left: 45%;
+}
+.col .CardContent button:hover{
+    background-color:#5f3058;
+    color:black;
+    font-size: large;
+    /* font-weight: lighter; */
+}
+
+
+
+/* footer */
+.parent{
+    background-color: #333;
+    color:#ddd;
+    border: 1px solid black;
+    border-radius: 6px;
+    width: 99.9%;
+    height: 22.3%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.child{
+    width: 48%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color:#ddd;
+}
+.child h3{
+    font-size:xx-large;
+    height: 15px;
+}
+.child a{
+    text-decoration: none;
+    color:#ddd;
+}
+.icons{
+    height: 30%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-bottom: 90px;
+    padding: 0;
+}
+.icons a{
+    text-decoration: none;
+    font-size: 1.8em;
+
+}
+
+.fa-facebook-square {
+    color: #352bc4;
+}  
+.fa-twitter-square {
+    color: #55ACEE;
+}
+.fa-linkedin-square {
+    color: #3B5998;
+}
+.fa-instagram-square {
+    color: #9d5316;
+}
+.fa-arrow-alt-circle-up{
+    color:#cba7c6;
+}
+.email{
+    padding: 0;
+    margin: 0;
+    background-color: #cba7c6;
+    color: black;
+    border: 3px solid black;
+    border-radius: 5px;
+    width: 50%;
+    align-self: center;
+}
+
+@media (min-width:0px) and (max-width:567px){
+    body{
+        width: 100%;
+        height: 100%;
+    }
+}
+@media (min-width:567.1px) and (max-width:750px){
+    body{
+        width: 100%;
+        height: 100%;
+    }
+}
+@media (min-width:750.1) and (max-width:900px){
+    body{
+        width: 100%;
+        height: 100%;
+    }
+}
+@media (min-width:900.1px) and (max-width:1200px){
+    body{
+        width: 100%;
+        height: 100%;
+    }
+}
+@media (min-width:1200.1px) and (max-width:1800px){
+    body{
+        width: 100%;
+        height: 100%;
+    }
+}
